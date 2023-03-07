@@ -11,7 +11,7 @@ const Dish = ({dish}) => {
    const dispatch = useDispatch();
    return (
       <div> 
-         <img src={`./${dish.img}.avif`} alt="" />
+         <img src={`./${dish.img}.avif`} alt="dish" />
          <h2>{dish.name}</h2>
          <h1>$ {dish.price}</h1>
          {/* TO FIX LATER */}
